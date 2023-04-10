@@ -3,7 +3,7 @@ import africastalking
 
 
 # Initialize AfricasTalking with your API key and sender ID
-africastalking.initialize(api_key='4e4a41d67dcec3a6705b5a069e3dce627931395570a28f53a4b614d00017c937', username='smskennar')
+africastalking.initialize(api_key='', username='')
 sms = africastalking.SMS
 
 app = Flask(__name__)
@@ -20,5 +20,4 @@ def send_sms():
 
 if __name__ == '__main__':
     app.run(debug=True)
-username = "kenedygakere@gmail.com"
-api_key = "ea40a20d431a791c6928b56799e3491dd66761f800c1ac291089007d89eba74c"
+ 
