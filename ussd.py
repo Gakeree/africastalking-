@@ -4,8 +4,8 @@ import africastalking
 app = Flask(__name__)
 
 # Initialize the AfricasTalkingGateway object with your API key and username
-username = "kenedygakere@gmail.com"
-api_key = "ea40a20d431a791c6928b56799e3491dd66761f800c1ac291089007d89eba74c"
+username = " "
+api_key = " "
 africastalking.initialize(username, api_key)
  
 
